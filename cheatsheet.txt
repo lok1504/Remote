@@ -1,0 +1,20 @@
+# Initialise a repository from existing code
+git init
+
+# Before first commit
+git status
+
+# Add files to staging area
+git add -A
+
+# Add indivisual file to staging area
+git add calc.py
+
+# Remove files from staging area
+git reset
+
+# Commit files
+git commit -m "<message>"
+
+# List commit history
+git log
