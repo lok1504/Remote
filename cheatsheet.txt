@@ -24,3 +24,7 @@ git checkout <master-branch>
 git pull origin <master-branch>
 git merge <branch-name>
 git push origin <master-branch>
+
+# Delete a branch
+git branch -d <branch-name>
+git push origin --delete <branch-name>
