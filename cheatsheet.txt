@@ -3,3 +3,15 @@ git clone <url>
 
 # List branches
 git branch -a
+
+# Commit locally first
+git add -A
+git commit -m "<message>"
+
+# Push changes
+git pull origin <branch>
+git push origin <branch>
+
+# Create a branch
+git branch <branch-name>
+git checkout <branch-name>
